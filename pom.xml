@@ -10,7 +10,7 @@
     </parent>
     <groupId>com.example</groupId>
     <artifactId>eurekaserver</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>prod-1</version>
     <name>eurekaserver</name>
     <description>eurekaserver</description>
     <properties>
@@ -18,10 +18,18 @@
         <spring-cloud.version>2021.0.7</spring-cloud.version>
     </properties>
     <dependencies>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-actuator</artifactId>
+        </dependency>
+
+
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-config</artifactId>
         </dependency>
+
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
@@ -32,7 +40,9 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
+
     </dependencies>
+
     <dependencyManagement>
         <dependencies>
             <dependency>
