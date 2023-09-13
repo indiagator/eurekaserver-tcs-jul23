@@ -11,7 +11,6 @@ public class EurekaserverApplication
 {
     public static void main(String[] args)
     {
-
         new SpringApplicationBuilder()
                 .profiles("dev")
                 .sources(EurekaserverApplication.class)

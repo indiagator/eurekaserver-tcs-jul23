@@ -1,6 +1,8 @@
+
+
 FROM adoptopenjdk/maven-openjdk11
 
-COPY target/eurekaserver-prod-1.jar app.jar
+COPY target/eurekaserver-dev-1.jar app.jar
 
 EXPOSE 8070:8070
 

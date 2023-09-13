@@ -10,7 +10,7 @@
     </parent>
     <groupId>com.example</groupId>
     <artifactId>eurekaserver</artifactId>
-    <version>prod-1</version>
+    <version>dev-1</version>
     <name>eurekaserver</name>
     <description>eurekaserver</description>
     <properties>
